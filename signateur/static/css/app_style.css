@@ -1,0 +1,66 @@
+body {
+    background-color: #00a8cc;
+    font-size: 25px;
+    font-family: monospace;
+    /* width: 100%; */
+    }
+.post-title {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    background: #142850;
+    padding: 15px;
+    color: #00a8cc;
+    border-radius: 30px;
+    /* margin: 30px 500px 50px 500px; */
+    }
+.panel-heading {
+        text-align: center;
+        color: #142850;
+        padding-bottom: 20px;
+        }
+.tag-ingo {
+            font-family: cursive;
+            font-size: 15px;
+            text-align: left;
+            font-style: oblique;
+            color: #142850;
+            }     
+            .latestsign {
+                color: #142850;
+                font-size: 50px;
+                margin-bottom: 60px;
+                }
+                .signateurimg.article-img {
+                    padding: 20px;
+                    }               
+.btn-form-action {
+    width: 125px;
+}
+.form-action-group {
+    text-align: center;
+    border-top: solid #eaeaea 1px;
+	padding-top: 15px;
+}
+.form-group {
+    margin-bottom: 5px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.form-group label.required:after {
+  content : "*";
+  color : #ff7575;
+}
+.form-group label.error {
+    margin: 0px;
+    color: #d44c4c;
+    font-size: 10px;
+}
+.dup-chek-details{ font-size: 12px; font-weight: bold; }
+.form-alter{ display:none; }
+
+@media screen and (max-width: 600px){
+    .post-title {
+        font-size: 15px;
+        }
+}
